@@ -1,0 +1,275 @@
+/*@brand-default:           #f2f0f5;
+@brand-primary:           #219ad8;
+@brand-success:           #21e275;
+@brand-warning:           #e8bc13;
+@brand-danger:            #e84e13;
+@brand-info:              #21bcd8;
+@brand-white:             #ffffff;
+@brand-dark:              #252D3A;*/
+/*
+ *  Color Scheme
+ *
+ */
+/* Selected text */
+::-moz-selection {
+  background: #294364;
+  color: #ffffff;
+  text-shadow: none;
+}
+::selection {
+  background: #294364;
+  color: #ffffff;
+  text-shadow: none;
+}
+/*********************/
+/* Spinnner */
+.loader:after {
+  border: solid 1px transparent;
+  border-top-color: #1582dc;
+  border-left-color: #1582dc;
+}
+/*********************/
+/* Link hover */
+a:active,
+a:focus,
+a:hover {
+  color: #1166ad;
+}
+/*********************/
+/* Layout top header */
+.app > .header {
+  background-color: #263e5d;
+}
+.app > .header .brand {
+  background-color: #294364;
+}
+.app > .header .brand a,
+.app > .header .brand a:hover {
+  color: rgba(149, 176, 211, 0.9);
+}
+.app > .header .navbar-toggle,
+.app > .header .nav > li > a,
+.app > .header .bg-none {
+  color: #95b0d3;
+}
+@media screen and (min-width: 768px) {
+  .header .nav > li > a:hover,
+  .header .nav > li > a:focus,
+  .header .nav .open > a,
+  .header .nav .open > a:hover,
+  .header .nav .open > a:focus {
+    background-color: #20344e;
+  }
+}
+.header .open a.toggle-search,
+.header a.toggle-search:hover {
+  background-color: #20344e;
+}
+/*********************/
+/* Layout Sidebar */
+.sidebar {
+  background-color: #294364;
+  color: #7a9dc3;
+}
+.sidebar a,
+.sidebar .nav-title {
+  color: #7a9dc3;
+}
+.compact-menu .main-navigation > ul > li {
+  border-bottom: 1px solid #263e5d;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+.app:not(.small-menu) .main-navigation > ul > li > ul > li.active a,
+.app:not(.small-menu) .main-navigation > ul > li > ul > li a:hover {
+  color: #c0d1e3;
+}
+.main-navigation > ul > li:hover > a {
+  color: #c0d1e3;
+}
+.main-navigation > ul > li.open .sub-menu {
+  background-color: #2b4769;
+}
+@media screen and (min-width: 768px) {
+  .small-menu .main-navigation > ul > li.open {
+    background-color: #263e5d;
+  }
+}
+/*********************/
+/* Gallery hover overlay */
+.gallery .overlay {
+  background-color: #294364;
+  background-color: rgba(41, 67, 100, 0.9);
+}
+/*********************/
+/* Skin button style */
+.btn-color {
+  color: #ffffff;
+  background-color: #294364;
+  border-color: #294364;
+}
+a.btn-color {
+  color: #ffffff;
+}
+.btn-color:hover,
+.btn-color:focus,
+.btn-color:active,
+.btn-color.active,
+.open .dropdown-toggle.btn-color {
+  color: #ffffff;
+  background-color: #223752;
+  background-image: none;
+  border-color: #223752;
+}
+.btn-color.disabled,
+.btn-color[disabled],
+fieldset[disabled] .btn-color,
+.btn-color.disabled:hover,
+.btn-color[disabled]:hover,
+fieldset[disabled] .btn-color:hover,
+.btn-color.disabled:focus,
+.btn-color[disabled]:focus,
+fieldset[disabled] .btn-color:focus,
+.btn-color.disabled:active,
+.btn-color[disabled]:active,
+fieldset[disabled] .btn-color:active,
+.btn-color.disabled.active,
+.btn-color[disabled].active,
+fieldset[disabled] .btn-color.active {
+  background-color: #294364;
+  border-color: #294364;
+}
+.btn-color.btn-outline {
+  background-color: transparent;
+  color: #294364;
+}
+.btn-color.btn-outline:hover,
+.btn-color.btn-outline:focus,
+.btn-color.btn-outline:active,
+.btn-color.btn-outline.active {
+  background-color: #294364;
+  color: #ffffff;
+}
+/*********************/
+/* Skin text color style */
+.color {
+  color: #294364;
+}
+/*********************/
+/* Skin nestable style */
+#nestable2 .dd-handle {
+  color: #bfc7d1;
+  border: 1px solid #294364;
+  background-color: #294364;
+}
+#nestable2 .dd-handle:hover {
+  background-color: #304f76;
+}
+/*********************/
+/* Skin slider style */
+.slider-color .slider-selection {
+  background-color: #294364;
+}
+.slider-color .slider-handle {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px, #294364 0px 0px 0px 1px;
+}
+/*********************/
+/* Skin panel style */
+.panel-color {
+  border-color: #294364;
+}
+.panel-color > .panel-heading {
+  color: #bfc7d1;
+  background-color: #294364;
+  border-color: #294364;
+}
+.panel-color > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #294364;
+}
+.panel-color > .panel-heading a {
+  color: #bfc7d1;
+}
+.panel-color > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #294364;
+}
+/*********************/
+/* Skin label style */
+.label-color {
+  background-color: #294364;
+}
+.label-color[href]:hover,
+.label-color[href]:focus {
+  background-color: #1a2b40;
+}
+/*********************/
+/* Skin background color */
+.bg-color {
+  background-color: #294364;
+  color: #bfc7d1;
+}
+.bg-color a {
+  color: #bfc7d1;
+}
+.bg-color a:active,
+.bg-color a:focus,
+.bg-color a:hover {
+  color: #a1adbb;
+  text-decoration: none;
+  outline: 0;
+}
+.bg-color .nav > li:hover > a,
+.bg-color .nav > li:focus > a,
+.bg-color .nav > li:active > a,
+.bg-color .nav > li.active > a,
+.bg-color .nav > li > a:hover,
+.bg-color .nav > li > a:focus {
+  background-color: #253c59;
+}
+/*********************/
+/* Skin pagination style */
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  border-color: #294364;
+  background-color: #294364;
+  color: #ffffff;
+}
+/*********************/
+/* Skin progress bar style */
+.progress-bar-color {
+  background-color: #294364;
+}
+/*********************/
+/* Skin chart elements */
+.morris-hover.morris-default-style {
+  border-color: #294364;
+  background-color: #294364;
+  background-color: rgba(41, 67, 100, 0.9);
+}
+.morris-hover.morris-default-style a {
+  color: #ffffff;
+}
+#jqstooltip {
+  background-color: #294364;
+  border-color: #294364;
+}
+#tooltip {
+  background-color: #294364;
+  color: #ffffff;
+}
+#tooltip:before {
+  border-color: transparent #294364 transparent transparent;
+}
+/*********************/
+.jvectormap-label {
+  border: solid 1px #294364;
+  background-color: #294364;
+  color: white;
+}
+.jvectormap-zoomin,
+.jvectormap-zoomout {
+  background-color: #294364;
+  color: white;
+}

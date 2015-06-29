@@ -1,0 +1,360 @@
+﻿/* latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat-Regular'), url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat-Bold'), url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcoWiMMZ7xLd792ULpGE4W_Y.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body, html {
+    padding: 0px;
+    margin: 0px;
+    color: #666666;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.header-faixa {
+    /*background-color: #f55a4e;*/
+    background-color: red;
+    /*border-bottom: 7px solid #5e5e5e;*/
+    color: #fff;
+    height: 128px;
+}
+
+.header-faixa-title {
+    color: #fff;
+    position: absolute;
+    font-size: 69px;
+    top: 26px;
+    left: 258px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.menu-top {
+     position: fixed;
+    right: 0px;
+    top: 0px;
+}
+
+
+.header-area-restrita {
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    border-left: 1px solid rgba(0,0,0,.1);
+}
+
+.margim-left20px {
+    margin-left: 20px;
+}
+
+.horiz-nav > li > a {
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 30px;
+    text-decoration: none;
+    border-right: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    color: #fff;
+}
+
+.horiz-nav > li > a:hover {
+    background: rgba(0,0,0,.05);
+}
+
+.horiz-nav > li i {
+    margin-right: 7px;
+}
+
+.menu-topo{
+    cursor: pointer;
+}
+
+.menu-topo:hover{
+    opacity: 0.7;
+}
+.content-frase {
+    margin-top: -8px;
+    color: #FFF;
+}
+
+.frase-impactante{
+    line-height: 20px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.header-logo {
+    position: absolute;
+    /* z-index: 10; */
+    margin: -111px 0px 0px -60px;
+}
+.header-info {
+    background-color: #000;
+    min-height: 261px;
+    color: #fff;
+}
+
+.margem-negativa{
+    margin-bottom: -25px;
+}
+
+.red{
+    color: #f55a4e;
+}
+
+.conteudo {
+    margin-top: 4px;
+    padding: 0px!important;
+    margin-bottom: -25px;
+
+}
+
+.contact-info-blocks {
+    text-align: right;
+    margin-top: 29px;
+}
+
+.contact-info-blocks > div {
+    display: inline-block;
+    margin: 20px 0 0 0;
+    padding: 0 20px;
+    border-right: 1px solid #efefef;
+    color: #999;
+    text-align: left;
+    font-size: 16px;
+}
+
+.contact-info-blocks > div > span {
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+}
+
+.contact-info-blocks > div i {
+    color: #f55a4e;
+    margin-right: 5px;
+}
+
+/*.header-menu {
+    height: 50px;
+}*/
+
+.header-menu-wrapper {
+    display: block;
+    /*position: relative;*/
+    background: #fff;
+    /*z-index: 6;*/
+    width: 100%;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    background: #f8f8f8;
+}
+
+.logo {
+    position: fixed;
+    top: 115px;
+    width: 512px;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.mapa {
+  opacity: 1;
+  transform: scale(0.9);
+  margin-top: -140px;
+  margin-left: -84px;
+}
+
+.encontre-zap-pragas{
+  position: relative;
+  margin-left: -13px;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.bug {
+    /*float: right;*/ 
+    margin-left: -16px;
+    margin-top: 10px;
+    opacity: 0.5;
+    clear: both;
+    width: 68px;
+}
+
+.estado {
+    cursor: pointer;
+}
+
+.dialog-contato {    
+    /*-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    background-color: #fff;
+    border: 1px solid;
+    border-color: #bbb #bbb #a8a8a8;
+    padding: 16px;*/
+    position: absolute;
+    /*z-index: 1201!important;*/
+    margin-left: 200px;
+}
+
+.dialog-contato-body {
+    width: 256px;
+    height: 128px;    
+}
+
+.zap {
+    color: #f55a4e;
+}
+
+.dialog-contato-body h4 {
+    color: #bbb;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    color: #333;
+    padding: 5px;
+    z-index: 9998;
+    /*    border-top: 2px solid #eee;
+        background: #fff;*/
+}
+
+.aguias-software{
+    color: #333;
+    font-weight: bold;
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+.aguias-software img{
+    position: relative;
+    top: 4px;
+}
+
+.label-footer {
+    position: relative;
+    top: 10px;
+    font-size: 12px;
+}
+
+.aguias-software:hover{
+    opacity: 0.7;
+}
+
+.footer-zap-pragas{
+    font-size: 13px;
+    margin: 10px 0px 0px 10px;
+}
+
+.modal-backdrop{
+    z-index: 9999;
+    opacity: 0.9;
+}
+
+.tip-twitter{
+    z-index: 1000000 !important;
+}
+
+.error-input{
+    border: 1px solid #f55a4e;
+    background-color: rgba(245, 90, 78, 0.1);
+}
+
+.feature-description{
+    text-align: justify;
+}
+
+.sub-menu {
+    padding: 6px 38px 6px 38px!important;
+    color: #333;
+}
+.sub-menu:hover{
+    background: #ccc!important;
+    opacity: 0.7!important;
+    color: #333;
+}
+
+.sub-menu .header .nav > li > a:hover, .header .nav > li > a:focus, .header .nav .open > a, .header .nav .open > a:hover, .header .nav .open > a:focus {
+    background: #ccc!important;
+    opacity: 0.7!important;
+    color: #333;
+}
+
+.painel-sub-menu {
+    padding: 20px;
+    /* height: 200px; */
+    width: 294px;
+    border: 0px;
+}
+
+.endereco-parceiro {
+  color: #fff!important;
+  background-color:#000!important;
+  border-color: #000!important;
+}
+
+.endereco-parceiro .h5{
+    margin: 3px !important;
+}
+
+.endereco-parceiro .text-muted{
+    margin-right: 10px;
+}
+
+.endereco-parceiro-painel{
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #EEF;
+}
+
+.endereco-parceiro-list {
+    border: 1px solid #eee;
+    text-align: left!important;
+}
+
+.endereco-parceiro-link {
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.endereco-parceiro-link a:active, a:focus, a:hover {
+    text-decoration: none;
+}
+
+.selo-qualidade{
+    width: 164px;
+}
+
+textarea.form-control{
+    resize: none;
+}
+

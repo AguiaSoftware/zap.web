@@ -1,0 +1,21 @@
+#blocklist{	
+	overflow: hidden;
+}
+
+.blocklist-item{	
+	transition: transform 0.4s ease;
+}
+
+.blocklist-new{
+	transform: translateX(-400px);
+	
+}
+
+.blocklist-current{
+	
+}
+
+.blocklist-container{
+	overflow: auto;
+  	padding-right: 20px;
+}
