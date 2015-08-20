@@ -40,10 +40,19 @@
 	      {
 	    	  id: 5,
 	    	  estado: 'Piauí - Teresina',
-	    	  nome: 'José Candeia',
+	    	  nome: 'Anderley Belchior',
 	    	  email: 'zap@zappragas.com.br',
 	    	  telefone: '(86) 3011-6623 / (86) 8809-8678',
 	    	  endereco: 'Av. João XXII N. 2.496 SL 108 - Bairro São João'
+	      },
+	      
+	      {
+	    	  id: 6,
+	    	  estado: 'São Paulo - Campinas',
+	    	  nome: 'Zap Pragas',
+	    	  email: 'zap@zappragas.com.br',
+	    	  telefone: '(19) 4042-0181 / (19) 98715-0440 / Whatsapp(61) 8205-2188',
+	    	  endereco: 'Rua Carolina Prado Penteado, 226, Nova Campinas - Cep:  13.092-470 - Campinas - SP'
 	      }
 	];
 
@@ -55,24 +64,24 @@
 		'bahia' : [2],
 		'ceara' : [5],
 		'distrito-federal' : [2],
-		'espirito-santo' : [3],
+		'espirito-santo' : [3, 6],
 		'goias' : [1],
 		'maranhao' : [5],
 		'mato-grosso' : [1],
-		'mato-grosso-sul' : [3],
+		'mato-grosso-sul' : [3, 6],
 		'minas-gerais' : [4],
 		'para' : [5],
 		'paraiba' : [5],
-		'parana' : [3],
+		'parana' : [3, 6],
 		'pernambuco' : [5],
 		'piaui' : [5],
-		'rio-janeiro' : [3],
+		'rio-janeiro' : [3, 6],
 		'rio-grande-norte' : [5],
-		'rio-grande-sul' : [3],
+		'rio-grande-sul' : [3, 6],
 		'rondonia' : [1],
 		'roraima' : [1],
-		'santa-catarina' : [3],
-		'sao-paulo' : [3],
+		'santa-catarina' : [3, 6],
+		'sao-paulo' : [3, 6],
 		'sergipe' : [5],
 		'tocantins' : [1, 5],
 	};

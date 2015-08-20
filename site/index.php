@@ -74,7 +74,7 @@
 
                                 <ul class="header-area-restrita horiz-nav pull-right">
                                     <li>
-                                        <a href="http://zappragas.com.br:2096/">
+                                        <a href="http://admin.zappragas.com.br/">
                                             <i class="fa fa-lock"></i>
                                             Área Restrita
                                         </a>
