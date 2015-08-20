@@ -1,0 +1,1 @@
+ncftpput -R -u jhelio -p Jo11si07 ftp.zappragas.com.br ~/public_html .
