@@ -1,6 +1,6 @@
 <?php
 
-	require(__DIR__ . "/class.phpmailer.php");
+	require(__DIR__ . "/class.phpmailer.php"); 
 	
 	class Email{
 		
